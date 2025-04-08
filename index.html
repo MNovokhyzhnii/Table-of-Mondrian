@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Мондріан Таблиця</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: white;
+      }
+
+      table {
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: 600px;
+        height: 600px;
+      }
+
+      td {
+        border: 6px solid black;
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .yellow {
+        background-color: #f4d442;
+      }
+
+      .blue {
+        background-color: #1d1dc0;
+      }
+
+      .white {
+        background-color: white;
+      }
+
+      .black {
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="white"></td>
+        <td class="white"></td>
+        <td class="white"></td>
+        <td class="yellow" colspan="2"></td>
+        <td class="white"></td>
+      </tr>
+      <tr>
+        <td class="white" rowspan="2"></td>
+        <td class="red" rowspan="2" colspan="2"></td>
+        <td class="yellow" colspan="2"></td>
+        <td class="white"></td>
+      </tr>
+      <tr>
+        <td class="white"></td>
+        <td class="white"></td>
+        <td class="white"></td>
+      </tr>
+      <tr>
+        <td class="white"></td>
+        <td class="black" rowspan="2"></td>
+        <td class="white"></td>
+        <td class="white"></td>
+        <td class="white"></td>
+        <td class="white"></td>
+      </tr>
+      <tr>
+        <td class="yellow"></td>
+        <td class="white" colspan="2"></td>
+        <td class="blue" colspan="2"></td>
+      </tr>
+      <tr>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="white"></td>
+        <td class="white"></td>
+        <td class="red"></td>
+      </tr>
+    </table>
+  </body>
+</html>

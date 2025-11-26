@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: #f0f0f0;
+}
+
+table.mondrian {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 600px;
+  height: 600px;
+}
+
+table.mondrian td {
+  border: 10px solid black;
+  padding: 0;
+}
+
+.white {
+  background: #ffffff;
+}
+.red {
+  background: #d60000;
+}
+.yellow {
+  background: #f2d300;
+}
+.blue {
+  background: #003399;
+}
+.black {
+  background: black;
+}
